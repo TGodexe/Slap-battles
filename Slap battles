@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TGod Hub", "Synapse")
+
+
+-- SLAP AURA
+
+local Tab = Window:NewTab("MAIN MENU")
+local Section = Tab:NewSection("Slap Battles")
+
+Section:NewButton("Slap aura", "WORKING", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/slap-aura/main/Slap%20aura.lua"))()
+end)
+
+
+-- Admin
+
+local Tab = Window:NewTab("ADMIN")
+local Section = Tab:NewSection("Admin CMD")
+
+Section:NewButton("infinite Yield", "WORKING", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
